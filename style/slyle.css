@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header{
+    height: 500px;
+    background: url(../img/bc.jpg) no-repeat  center /cover ;
+}
+
+.header-content{
+    height: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+
+
+.logo{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 30px;
+}
+
+.type{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 30px;
+    transition: 2000ms;
+}
+
+
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.type:hover{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 30px;
+}
+
+.header-box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-box h1{
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.bottom{
+    color: black;
+    background: white;
+    padding: 10px 70px;
+    font-size: 24px;
+    border-radius: 30px;
+    transition: 600ms;
+}
+
+.bottom:hover{
+    color: white;
+    background: blue;
+    padding: 10px 70px;
+    font-size: 34px;
+    border-radius: 30px;
+}
+
+main{
+    margin: 30px 0;
+}
+
+.main-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-group-title{
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.main-group-text{
+    font-size: 22px;
+}
+
+.main-items{
+    min-width: 350px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.main-items-square{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.main-items img{
+    width: 100%;
+}
+
+.main-square-text{
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 21px;
+}
